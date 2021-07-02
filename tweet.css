@@ -1,0 +1,37 @@
+body{
+    background-color:peachpuff;
+}
+.newTweet{
+    padding:20px;
+    text-align: center;
+}
+.tweetContainer{
+    text-align: left;
+    padding-left: 5rem;
+}
+#tweetText{
+    width: 70%;
+    height:10%;
+    text-align: left;
+    border-radius: 10px;
+    border-color: grey;
+    }
+#tweetButton{
+    background-color:blueviolet;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;;
+    margin:10px;
+}
+.hidden{
+    visibility: hidden;
+}
+.error{
+    color:red;
+}
+#tweetButton:disabled{
+    background-color:red;
+}
